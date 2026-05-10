@@ -75,7 +75,7 @@ export default function Page() {
               npm
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/ItsJustMeChris/mdurl"
               target="_blank"
               rel="noreferrer"
               className="ml-1 inline-flex items-center gap-2 rounded-full border border-white/10 bg-od-panel/60 px-3 py-1.5 text-od-fg-bright hover:border-white/20 transition"
@@ -306,7 +306,7 @@ export default function Page() {
               npm
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/ItsJustMeChris/mdurl"
               target="_blank"
               rel="noreferrer"
               className="hover:text-od-fg-bright transition"
