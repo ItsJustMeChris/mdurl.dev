@@ -2,6 +2,7 @@ const EXAMPLES = [
   "mdurl https://example.com",
   "mdurl https://news.ycombinator.com --max-bytes 4000",
   "mdurl search 'weather mke' --engine duckduckgo",
+  "mdurl https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal) --full --section Table --no-resources",
   "mdurl https://en.wikipedia.org/wiki/Markdown --no-resources",
   "mdurl https://docs.python.org --section Tutorial",
   "mdurl https://example.com --json | jq '.title'",

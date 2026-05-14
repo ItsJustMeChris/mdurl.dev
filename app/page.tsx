@@ -27,7 +27,7 @@ const SHIPPING_PIPELINE = [
   { label: "HTTP", desc: "Plain fetch with retry + redirect cookies" },
   { label: "Detect", desc: "Sniff content-kind: html, pdf, feed, json, xml" },
   { label: "Render", desc: "Readability, or Chromium fallback for SPAs" },
-  { label: "Extract", desc: "Markdown body, resources, structured data" },
+  { label: "Extract", desc: "Markdown body, GFM tables, resources, structured data" },
   { label: "Emit", desc: "Frontmatter + markdown, or JSON envelope" },
 ];
 
@@ -102,7 +102,7 @@ export default function Page() {
       <section className="relative z-10 mx-auto max-w-6xl px-6 pt-12 pb-16 md:pt-24 md:pb-28">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/10 bg-od-panel/50 px-3 py-1 text-xs text-od-fg/80 backdrop-blur-sm fade-up">
           <span className="inline-block h-1.5 w-1.5 rounded-full bg-od-green animate-pulse" />
-          <span className="font-mono">v0.1.0</span>
+          <span className="font-mono">v0.1.1</span>
           <span className="text-od-mute">·</span>
           <span>A curl-shaped CLI built for coding agents</span>
         </div>
@@ -119,7 +119,8 @@ export default function Page() {
           page or a web search and emits a YAML frontmatter block followed by
           markdown — predictable on success, predictable on failure. The
           default <em className="not-italic text-od-fg-bright">"read a page"</em>{" "}
-          primitive for LLM tools.
+          primitive for LLM tools, with HTML tables normalized into GitHub
+          Flavored Markdown.
         </p>
 
         <div className="mt-9 max-w-md fade-up delay-3">

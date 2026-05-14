@@ -18,8 +18,8 @@ const FEATURES = [
     accent: "green",
   },
   {
-    title: "PDFs, feeds, JSON",
-    body: "PDFs, RSS/Atom, sitemaps, JSON, plain text — handled before the HTML pipeline so agents never receive mangled binary as article text.",
+    title: "Tables, PDFs, feeds",
+    body: "HTML tables become GitHub Flavored Markdown. PDFs, RSS/Atom, sitemaps, JSON, and plain text are handled before the HTML pipeline.",
     badge: "04",
     accent: "yellow",
   },

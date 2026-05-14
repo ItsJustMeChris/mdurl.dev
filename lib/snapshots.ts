@@ -34,25 +34,25 @@ const FETCH_LIST: FetchEntry[] = [
     file: "wiki-markdown",
     command:
       "mdurl https://en.wikipedia.org/wiki/Markdown --max-bytes 5000",
-    durationMs: 488,
+    durationMs: 203,
   },
   {
     url: "https://news.ycombinator.com",
     file: "hn",
     command: "mdurl https://news.ycombinator.com --max-bytes 4000",
-    durationMs: 310,
+    durationMs: 416,
   },
   {
     url: "https://www.rust-lang.org",
     file: "rust",
     command: "mdurl https://www.rust-lang.org --max-bytes 4000",
-    durationMs: 276,
+    durationMs: 164,
   },
   {
     url: "https://nextjs.org",
     file: "nextjs",
     command: "mdurl https://nextjs.org --max-bytes 4000",
-    durationMs: 402,
+    durationMs: 1034,
   },
 ];
 
@@ -61,19 +61,19 @@ const SEARCH_LIST: SearchEntry[] = [
     query: "milwaukee espresso",
     engine: "duckduckgo",
     file: "search-coffee",
-    durationMs: 921,
+    durationMs: 808,
   },
   {
     query: "next.js 16 release notes",
     engine: "duckduckgo",
     file: "search-next",
-    durationMs: 884,
+    durationMs: 851,
   },
   {
     query: "weather mke",
     engine: "duckduckgo",
     file: "search-weather",
-    durationMs: 954,
+    durationMs: 926,
   },
 ];
 

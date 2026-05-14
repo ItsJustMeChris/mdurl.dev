@@ -109,7 +109,7 @@ function parseCommand(tokens: string[]): Parsed {
 }
 
 const WELCOME_LINES: Line[] = [
-  { id: 1, kind: "info", text: "mdurl v0.1.0 — sandboxed demo" },
+  { id: 1, kind: "info", text: "mdurl v0.1.1 — sandboxed demo" },
   {
     id: 2,
     kind: "meta",
